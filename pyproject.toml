@@ -1,0 +1,18 @@
+[project]
+name = "fit-3d-plane"
+version = "0.1.0"
+description = "Given a set of discrete points in 3D space (with at least three non-collinear points), fit a plane using these points."
+authors = [
+    {name = "GGN_2015",email = "neko@jlulug.org"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
